@@ -1,0 +1,58 @@
+/* Además de la clase identificativa propia, se ha creado la clase común shared para ahorrar lineas de código */
+.shared {
+  width: 250px;
+  box-shadow: black 2px 2px;
+}
+
+.table_songs {
+  /* Se establece el siguiente margen arriba de la tabla para separla de la portada */
+  margin-top: 10px;
+  /* Gracias a esta propiedad evitamos los espacios internos entre las celdas de la tabla */
+  border-collapse: collapse;
+  /* Se aplican todos los estilos del border en uno para reducir las líneas de código */
+  border: 3px solid red;
+}
+
+/* En este caso se ha atacado al interior de la tabla haciendo referencia a su etiqueta general */
+td {
+  border: 2px solid red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* Se aplica padding para establecer la separación */
+  padding-left: 5px;
+}
+
+th {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: pink;
+  /* Se expone la separación solicitada pero de otra forma */
+  padding: 0 0 0 5px;
+}
+
+/* De la siguiente forma accedemos a los encabezamos que deseamos sin tener que declarar una clase a cada uno de ellos */
+.headings > th:first-child {
+  width: 15%;
+}
+
+/* Tabmién vemos el ejemplo declarando las clases */
+.title {
+  width: 60%;
+}
+
+.headings > th:last-child {
+  width: 25%;
+}
+
+/* En este caso para evitar repetir 12 veces la clase tiene sentido atacar de esta manera a la primera fila */
+tr td:first-child {
+    background-color: hotpink;
+}
+
+/* En este caso ya que se trata de un elemento concreto se ha usado un id para identificarlo */
+#playing {
+    background-color: yellow;
+    font-weight: bold;
+    color: red;
+    text-shadow: black 2px 2px;
+}
+
+/* Y con esto estarían resueltos todos los requerimentos */

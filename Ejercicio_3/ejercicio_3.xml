@@ -1,5 +1,5 @@
 <eurovision>
-    <participante>
+    <candidaturas>
         <pais>Alemania</pais>
         <titulo>
             <original>Rockstars</original>
@@ -8,8 +8,8 @@
         <artista>Malik Harris</artista>
         <idioma>Inglés</idioma>
         <video>D3FN2umFaM8</video>
-    </participante>
-    <participante>
+    </candidaturas>
+    <candidaturas>
         <pais>España</pais>
         <titulo>
             <original>SloMo</original>
@@ -21,8 +21,8 @@
             <idioma_2>Inglés</idioma_2>
         </idioma>
         <video>TO2yGXVQCfo</video>
-    </participante>
-    <participante>
+    </candidaturas>
+    <candidaturas>
         <pais>Finlandia</pais>
         <titulo>
             <original>Jezebel</original>
@@ -31,8 +31,8 @@
         <artista>The Rasmus</artista>
         <idioma>Inglés</idioma>
         <video>XtMfCf3vFbc</video>
-    </participante>
-    <participante>
+    </candidaturas>
+    <candidaturas>
         <pais>Italia</pais>
         <titulo>
             <original>Brividi</original>
@@ -41,8 +41,8 @@
         <artista>Mahmood y Blanco</artista>
         <idioma>Italiano</idioma>
         <video>4MgMhzfUmiA</video>
-    </participante>
-    <participante>
+    </candidaturas>
+    <candidaturas>
         <pais>Ucrania</pais>
         <titulo>
             <original>Stefania</original>
@@ -51,5 +51,5 @@
         <artista>Kalush Orchstra</artista>
         <idioma>Ucraniano</idioma>
         <video>UiEGVYOruLk</video>
-    </participante>
+    </candidaturas>
 </eurovision>
