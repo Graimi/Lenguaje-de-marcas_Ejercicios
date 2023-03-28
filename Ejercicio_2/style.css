@@ -1,0 +1,27 @@
+/* Damos los siguientes estilos generales al documento */
+body {
+    background-color: skyblue;
+    color: darkblue;
+    /* Declarando aquí Calibri le damos esta fuente a todo el documento */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+}
+
+/* Declarando aquí la fuente al legend y aprovechando el estilo en cascada de lo damos solo a estas etiquetas */
+legend {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Damos los márgenes para replicar la imagen */
+/* Con la , seleccionamos más de una etiqueta */
+select, input {
+    margin-bottom: 15px;
+}
+
+img {
+    width: 50px;
+}
+
+#pago {
+    padding: 25px;
+}

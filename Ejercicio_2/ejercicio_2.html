@@ -1,13 +1,65 @@
 <!-- Ver como decirle al button que envíe la info del form, get o post -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 2: Compra de entradas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" method="get">
+      <!-- Dividmos las tres entradas principales en tres fieldsets para replicar el estilo del ejemplo -->
+      <fieldset class="tickets">
+        <!-- Con la etiqueta legend conseguimos replicar el estilo para superponer el texto en el borde -->
+        <!-- Declaramos los encabezados con h3 para que tenga mayor tamaño y margen que el resto del texto  -->
+        <legend><h3>Entradas</h3></legend>
+        <!-- La etiqueta label es la correcta para selects e inputs -->
+        <label for="tickets_quantity" >Número de entradas:</label>
+        <select name="tickets_quantity" id="tickets_quantity">
+          <!-- Declaramos el value a cada option para tratar adecuadamente los datos -->
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <!-- Con la etiqueta br creamos el salto de línea -->
+        <br>
+        <label for="tickets_category" >Categoría:</label> <br>
+        <select name="tickets_category" id="tickets_category">
+          <option value="Pista general">Pista general</option>
+          <option value="Grada">Grada</option>
+          <option value="VIP">VIP</option>
+        </select>
+      </fieldset>
+      <fieldset class="buyer">
+        <legend><h3>Datos del comprador</h3></legend>
+        <label for="tickets_category" >Nombre:</label>
+        <input type="text" name="name_buyer" id="name_buyer"> <br>
+        <label for="tickets_category" >Apellidos:</label>
+        <input type="text" name="surname_buyer" id="surname_buyer"> <br>
+        <label for="tickets_category" >E-Mail:</label>
+        <input type="email" name="email_buyer" id="email_buyer"> <br>
+        <label for="tickets_category" >Fecha de nacimiento:</label>
+        <input type="date" name="birthday_buyer" id="birthday_buyer"> <br>
+      </fieldset>
+      <fieldset class="shopping">
+        <legend><h3>Pago</h3></legend>
+        <p>Selecciona método de pago</p>
+        <input type="radio" name="visa" id="visa" value="visa">
+        <label for="visa"><img src="assets/visa.webp" alt="logo visa"></label> <br>
+        <input type="radio" name="mastercard" id="mastercard" value="mastercard">
+        <label for="mastercard"><img src="assets/mastercard.webp" alt="logo mastercard"></label> <br>
+        <input type="radio" name="paypal" id="paypal" value="paypal">
+        <label for="paypal"><img src="assets/paypal.png" alt="logo paypal"></label> <br>
+        <input type="radio" name="bizum" id="bizum" value="bizum">
+        <label for="bizum"><img src="assets/bizum.png" alt="logo bizum"></label> <br>
+        <input type="checkbox" name="conditions" id="conditions">
+        <label for="conditions">Acepto las condiciones de compra</label> <br>
+        <button type="submit" value="pago" id="pago">Proceder al pago</button>
+      </fieldset>
+    </form>
+  </body>
 </html>

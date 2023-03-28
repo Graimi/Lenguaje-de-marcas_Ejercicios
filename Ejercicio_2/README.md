@@ -4,7 +4,7 @@ Crea una página web que contenga un formulario para la compra de entradas y una
 
 La página de venta de entradas debe tener una apariencia similar a esta:
 
-<img src="Ejercicio_2\Ejercicio_2_Venta_de_entradas.png" alt="Imagen del ej"/> <br>
+<img src="assets\Ejercicio_2_Venta_de_entradas.png" alt="Imagen del ej"/> <br>
 
 Los requisitos que debe tener esta página son:
 
