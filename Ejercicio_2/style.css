@@ -4,7 +4,7 @@ body {
     color: darkblue;
     /* Declarando aquí Calibri le damos esta fuente a todo el documento */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-weight: bold;
+    font-weight: bold;
 }
 
 /* Declarando aquí la fuente al legend y aprovechando el estilo en cascada de lo damos solo a estas etiquetas */
@@ -22,10 +22,21 @@ img {
     width: 50px;
 }
 
-#pago {
+#proceed, #comeback {
     padding: 25px;
     background-color: darkblue;
     color: skyblue;
     /* Con lo siguiente damos el doble de tamaño de la fuente original */
     font-size: 2em;
+}
+
+/* Declaramos la letra específica */
+#comeback {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Quitamos el subrayado y le devolvemos el color */
+a {
+    text-decoration: none;
+    color: skyblue;
 }

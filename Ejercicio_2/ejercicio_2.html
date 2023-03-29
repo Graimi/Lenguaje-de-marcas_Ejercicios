@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="" method="get">
+    <form id="ticketing" name="ticketing" action="/ejercicio_2b.html" method="get" target="_blank">
       <!-- Dividmos las tres entradas principales en tres fieldsets para replicar el estilo del ejemplo -->
       <fieldset class="tickets">
         <!-- Con la etiqueta legend conseguimos replicar el estilo para superponer el texto en el borde -->
@@ -36,13 +36,13 @@
       </fieldset>
       <fieldset class="buyer">
         <legend><h3>Datos del comprador</h3></legend>
-        <label for="tickets_category" >Nombre:</label>
+        <label for="name_buyer" >Nombre:</label>
         <input type="text" name="name_buyer" id="name_buyer"> <br>
-        <label for="tickets_category" >Apellidos:</label>
+        <label for="surname_buyer" >Apellidos:</label>
         <input type="text" name="surname_buyer" id="surname_buyer"> <br>
-        <label for="tickets_category" >E-Mail:</label>
+        <label for="email_buyer" >E-Mail:</label>
         <input type="email" name="email_buyer" id="email_buyer"> <br>
-        <label for="tickets_category" >Fecha de nacimiento:</label>
+        <label for="birthday_buyer" >Fecha de nacimiento:</label>
         <input type="date" name="birthday_buyer" id="birthday_buyer"> <br>
       </fieldset>
       <fieldset class="shopping">
@@ -57,9 +57,10 @@
         <label for="paypal"><img src="assets/paypal.png" alt="logo paypal"></label> <br>
         <input type="radio" name="pago" id="bizum" value="bizum">
         <label for="bizum"><img src="assets/bizum.png" alt="logo bizum"></label> <br>
-        <input type="checkbox" name="pago" id="conditions">
+        <input type="checkbox" name="conditions" id="conditions" value="acept">
         <label for="conditions">Acepto las condiciones de compra</label> <br>
-        <button type="submit" value="pago" id="pago">Proceder al pago</button>
+        <!-- <button type="submit" form="ticketing" value="enviar" class="formato_boton"><a href="/ejercicio_2b.html">Proceder al pago</a></button> -->
+        <button id="proceed" type="submit" form="ticketing" name="submit" value="submited"> Proceder al pago </button>
       </fieldset>
     </form>
   </body>
