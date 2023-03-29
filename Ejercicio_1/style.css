@@ -1,3 +1,11 @@
+/* Estilos heredados de lo compartido por la profesora */
+.title {
+  background-color: slateblue;
+  color: white;
+  font-family: Tahoma;
+  padding: 10px;
+}
+
 /* Además de la clase identificativa propia, se ha creado la clase común shared para ahorrar lineas de código */
 .shared {
   width: 250px;
@@ -44,15 +52,15 @@ th {
 
 /* En este caso para evitar repetir 12 veces la clase tiene sentido atacar de esta manera a la primera fila */
 tr td:first-child {
-    background-color: hotpink;
+  background-color: hotpink;
 }
 
 /* En este caso ya que se trata de un elemento concreto se ha usado un id para identificarlo */
 #playing {
-    background-color: yellow;
-    font-weight: bold;
-    color: red;
-    text-shadow: black 2px 2px;
+  background-color: yellow;
+  font-weight: bold;
+  color: red;
+  text-shadow: black 2px 2px;
 }
 
 /* Y con esto estarían resueltos todos los requerimentos */

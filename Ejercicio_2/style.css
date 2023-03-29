@@ -1,5 +1,13 @@
-/* Damos los siguientes estilos generales al documento */
-body {
+/* Estilos heredados de lo compartido por la profesora */
+.title {
+    background-color: slateblue;
+    color: white;
+    font-family: Tahoma;
+    padding: 10px;
+  }
+
+  /* Damos los siguientes estilos generales al form */
+form {
     background-color: skyblue;
     color: darkblue;
     /* Declarando aquí Calibri le damos esta fuente a todo el documento */
@@ -22,7 +30,7 @@ img {
     width: 50px;
 }
 
-#proceed, #comeback {
+.button {
     padding: 25px;
     background-color: darkblue;
     color: skyblue;
@@ -31,7 +39,7 @@ img {
 }
 
 /* Declaramos la letra específica */
-#comeback {
+.comeback {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
