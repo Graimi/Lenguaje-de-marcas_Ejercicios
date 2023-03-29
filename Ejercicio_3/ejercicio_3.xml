@@ -8,7 +8,8 @@
             <castellano>Estrellas del rock</castellano>
         </titulo>
         <artista>Malik Harris</artista>
-        <!-- A diferencia de otras candidaturas que hay varios idiomas aquí no se ha dividido en hijos para ahorrar código -->
+        <!-- A diferencia de otras candidaturas que hay varios 
+        idiomas aquí no se ha dividido en hijos para ahorrar código -->
         <idioma>· Inglés</idioma>
         <video>D3FN2umFaM8</video>
     </candidaturas>

@@ -6,7 +6,8 @@
   padding: 10px;
 }
 
-/* Además de la clase identificativa propia, se ha creado la clase común shared para ahorrar lineas de código */
+/* Además de la clase identificativa propia, se ha creado la clase común shared 
+para ahorrar lineas de código */
 .shared {
   width: 250px;
   box-shadow: black 2px 2px;
@@ -36,7 +37,8 @@ th {
   padding: 0 0 0 5px;
 }
 
-/* De la siguiente forma accedemos a los encabezamos que deseamos sin tener que declarar una clase a cada uno de ellos */
+/* De la siguiente forma accedemos a los encabezamos que deseamos sin tener que declarar 
+una clase a cada uno de ellos */
 .headings > th:first-child {
   width: 15%;
 }
@@ -50,7 +52,8 @@ th {
   width: 25%;
 }
 
-/* En este caso para evitar repetir 12 veces la clase tiene sentido atacar de esta manera a la primera fila */
+/* En este caso para evitar repetir 12 veces la clase tiene sentido atacar de esta 
+manera a la primera fila */
 tr td:first-child {
   background-color: hotpink;
 }
