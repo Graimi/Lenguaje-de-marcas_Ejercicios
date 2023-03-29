@@ -1,3 +1,4 @@
+<!-- Se ha establecido el encabezado -->
 <?xml version="1.0" encoding="UTF-8"?>
 <eurovision>
     <candidaturas>
@@ -7,7 +8,8 @@
             <castellano>Estrellas del rock</castellano>
         </titulo>
         <artista>Malik Harris</artista>
-        <idioma>Inglés</idioma>
+        <!-- A diferencia de otras candidaturas que hay varios idiomas aquí no se ha dividido en hijos para ahorrar código -->
+        <idioma>· Inglés</idioma>
         <video>D3FN2umFaM8</video>
     </candidaturas>
     <candidaturas>
@@ -18,8 +20,8 @@
         </titulo>
         <artista>Chanel</artista>
         <idioma>
-            <idioma_1>Español</idioma_1>
-            <idioma_2>Inglés</idioma_2>
+            <idioma_1>· Español</idioma_1>
+            <idioma_2>· Inglés</idioma_2>
         </idioma>
         <video>TO2yGXVQCfo</video>
     </candidaturas>
@@ -30,7 +32,7 @@
             <castellano>Jezebel</castellano>
         </titulo>
         <artista>The Rasmus</artista>
-        <idioma>Inglés</idioma>
+        <idioma>· Inglés</idioma>
         <video>XtMfCf3vFbc</video>
     </candidaturas>
     <candidaturas>
@@ -40,7 +42,7 @@
             <castellano>Escalofríos</castellano>
         </titulo>
         <artista>Mahmood y Blanco</artista>
-        <idioma>Italiano</idioma>
+        <idioma>· Italiano</idioma>
         <video>4MgMhzfUmiA</video>
     </candidaturas>
     <candidaturas>
@@ -50,7 +52,7 @@
             <castellano>Estefanía</castellano>
         </titulo>
         <artista>Kalush Orchstra</artista>
-        <idioma>Ucraniano</idioma>
+        <idioma>· Ucraniano</idioma>
         <video>UiEGVYOruLk</video>
     </candidaturas>
 </eurovision>
