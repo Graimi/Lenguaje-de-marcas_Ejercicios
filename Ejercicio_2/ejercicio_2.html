@@ -48,15 +48,16 @@
       <fieldset class="shopping">
         <legend><h3>Pago</h3></legend>
         <p>Selecciona método de pago</p>
-        <input type="radio" name="visa" id="visa" value="visa">
+        <!-- Declaramos el mismo name para todos para que solo se seleccione un valor -->
+        <input type="radio" name="pago" id="visa" value="visa">
         <label for="visa"><img src="assets/visa.webp" alt="logo visa"></label> <br>
-        <input type="radio" name="mastercard" id="mastercard" value="mastercard">
+        <input type="radio" name="pago" id="mastercard" value="mastercard">
         <label for="mastercard"><img src="assets/mastercard.webp" alt="logo mastercard"></label> <br>
-        <input type="radio" name="paypal" id="paypal" value="paypal">
+        <input type="radio" name="pago" id="paypal" value="paypal">
         <label for="paypal"><img src="assets/paypal.png" alt="logo paypal"></label> <br>
-        <input type="radio" name="bizum" id="bizum" value="bizum">
+        <input type="radio" name="pago" id="bizum" value="bizum">
         <label for="bizum"><img src="assets/bizum.png" alt="logo bizum"></label> <br>
-        <input type="checkbox" name="conditions" id="conditions">
+        <input type="checkbox" name="pago" id="conditions">
         <label for="conditions">Acepto las condiciones de compra</label> <br>
         <button type="submit" value="pago" id="pago">Proceder al pago</button>
       </fieldset>

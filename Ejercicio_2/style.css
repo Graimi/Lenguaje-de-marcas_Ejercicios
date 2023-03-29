@@ -24,4 +24,8 @@ img {
 
 #pago {
     padding: 25px;
+    background-color: darkblue;
+    color: skyblue;
+    /* Con lo siguiente damos el doble de tamaño de la fuente original */
+    font-size: 2em;
 }
